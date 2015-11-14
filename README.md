@@ -1,20 +1,23 @@
 ng-color-clock
 ==
+[Project on GitHub](https://github.com/vooydzig/ng-color-clock)
 
 ng-color-clock is a very simple angularjs directive that let's You create nice clock widget to use in your project. It was inspired by: [http://thecolourclock.co.uk](http://thecolourclock.co.uk)
 
 Usage
 ==
-1. Include directive in your project(check `main.js` file).
+1. Include directive in your project(it's  `ng-color-clock.js` file).
 2. In HTML use custom tag:
 
     <ng-color-clock></ng-color-clock>
 
-Yes, that's it. It's that simple. You can optionally use `.color-clock` class to apply custom styling. Check `style.css` for example CSS. 
+Yes, that's it. It's that simple.
+You can optionally use `.color-clock` class to apply custom styling.
+Check `demo/style.css` for example CSS.
 
 Customization
 ==
-There are two optional attributes you can use to further customize colorclock.
+There are two optional attributes you can use to further customize colorclock behaviour.
 
 format
 --

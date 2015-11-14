@@ -1,6 +1,4 @@
-var app = angular.module("clock", []);
-
-app.directive('ngColorClock', ['$interval', 'dateFilter', function ($interval, dateFilter) {
+angular.module("clock", []).directive('ngColorClock', ['$interval', 'dateFilter', function ($interval, dateFilter) {
   function getColor(value, max) { return Math.floor(255*(value / max)); }
   function toHex(value) { return value < 16 ? '0' + value.toString(16) : value.toString(16); }
   return {

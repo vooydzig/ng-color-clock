@@ -4,15 +4,11 @@
     text-align: center;
     padding: 1em 2em;
     font-size: 2em;
+    margin-bottom:0.5em;
 }
 
-body {padding:0; margin:0;}
+.markdown-body{ padding: 1em; font-size: 1.2em; width:75%; margin: 0px auto;}
+.markdown-body .color-clock { width:30%; }
 
-.content { padding: 1em; font-size: 1.2em;}
-.example { margin-left: 1em; }
-h1, h2 { font-family: sans-serif; }
-
-.content .color-clock { width:25%; }
 #example1 .color-clock { color: white; }
-#example2 .color-clock { }
 #example3 .color-clock { border: 1px solid black; }
