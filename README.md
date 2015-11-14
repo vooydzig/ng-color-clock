@@ -18,7 +18,7 @@ There are two optional attributes you can use to further customize colorclock.
 
 format
 --
-**default: "hh:mm:ss a"** It can be either "#rgb", #RGB" or valid date time format. It
+**default: "hh:mm:ss a"** It can be either "#rgb", #RGB" or valid date time format.
 
     <ng-color-clock format="#rgb"></ng-color-clock>
 
