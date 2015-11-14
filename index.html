@@ -5,7 +5,51 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <ng-color-clock />
+
+
+        <div class="content">
+          <h1>ng-color-clock</h1>
+          <p>ng-color-clock is a very simple angularjs directive that let's You create nice clock widget to use in your project. It was inspired by: <a href="http://thecolourclock.co.uk">http://thecolourclock.co.uk</a></p>
+          <h1>Usage</h1>
+          <ol>
+          <li>Include directive in your project(check <code>main.js</code> file).</li>
+          <li>
+          <p>In HTML use custom tag:</p>
+          <p>&lt;ng-color-clock&gt;&lt;/ng-color-clock&gt;</p>
+          </li>
+          </ol>
+          <div id="example1">
+            <ng-color-clock></ng-color-clock>
+          </div>
+          <p>Yes, that's it. It's that simple. You can optionally use <code>.color-clock</code> class to apply custom styling. Check <code>style.css</code> for example CSS. </p>
+          <h1>Customization</h1>
+          <p>There are two optional attributes you can use to further customize colorclock.</p>
+          <div class="example" id="example1">
+            <h2>format</h2>
+            <p><strong>default: "hh:mm:ss a"</strong> It can be either "#rgb", #RGB" or valid date time format. It</p>
+
+            <pre><code>&lt;ng-color-clock format="#rgb"&gt;&lt;/ng-color-clock&gt;</code></pre>
+            <ng-color-clock format="#rgb"></ng-color-clock>
+
+
+            <pre><code>&lt;ng-color-clock format="#RGB"&gt;&lt;/ng-color-clock&gt;</code></pre>
+            <ng-color-clock format="#RGB"></ng-color-clock>
+
+            <pre><code>&lt;ng-color-clock format="HH:mm:ss"&gt;&lt;/ng-color-clock&gt;</code></pre>
+            <ng-color-clock format="HH:mm:ss"></ng-color-clock>
+          </div>
+
+          <div class="example" id="example2">
+          <h2>properties</h2>
+          <p><strong>default: ['background-color']</strong> It's a list of CSS properties separated by " " that will be colored every second.</p>
+            <pre><code>&lt;ng-color-clock properties="color"&gt;&lt;/ng-color-clock&gt;</code></pre>
+            <ng-color-clock properties="color"></ng-color-clock>
+          </div>
+          <div class="example" id="example3">
+            <pre><code>&lt;ng-color-clock properties="color border-color"&gt;&lt;/ng-color-clock&gt;</code></pre>
+            <ng-color-clock properties="color border-color"></ng-color-clock>
+          </div>
+        </div>
     </body>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <script src="main.js"> </script>
